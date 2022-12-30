@@ -1,6 +1,11 @@
-/*html {-webkit-filter: grayscale(150%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);}*/
+/*
+网页灰白
+html {-webkit-filter: grayscale(150%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);}
+*/
+/*友情链接间距问题*/
 .lk .m li {clear: left;padding: 0;}
-.fl .bm_h {border-width: 1px 0;background: #EEE;}
+/*板块栏美化*/
+.fl .bm_h {/*border-width: 1px 0;*/background: #EEE;}
 /*自定义网站字体开始*/
 @font-face{font-family: "lovely";src: url("http://bbs.flweb.xyz/WebFont.woff2") format("woff2");font-display: swap;}
 *{font-family: lovely}
