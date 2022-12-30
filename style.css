@@ -1,0 +1,30 @@
+/*html {-webkit-filter: grayscale(150%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);}*/
+.lk .m li {clear: left;padding: 0;}
+.fl .bm_h {border-width: 1px 0;background: #EEE;}
+/*自定义网站字体开始*/
+@font-face{font-family: "lovely";src: url("http://bbs.flweb.xyz/WebFont.woff2") format("woff2");font-display: swap;}
+*{font-family: lovely}
+/*自定义滚动条开始*/
+ ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    -webkit-border-radius: 0.125rem;
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+/*搜索栏*/
+input#scbar_txt {
+    width: 200px;
+    transition: 0.4s;
+}
+input#scbar_txt:hover{
+    width:400px;
+}
