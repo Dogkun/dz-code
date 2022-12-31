@@ -29,7 +29,9 @@ html {-webkit-filter: grayscale(150%);filter:progid:DXImageTransform.Microsoft.B
 input#scbar_txt {
     width: 200px;
     transition: 0.3s ease-in;
+    border-radius: 5px 0px 0px 5px;
 }
+#scbar_type {border-radius: 0 5px 5px 0;}
 input#scbar_txt:hover{
     width:400px;
 }
