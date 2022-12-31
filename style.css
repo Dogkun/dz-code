@@ -28,7 +28,7 @@ html {-webkit-filter: grayscale(150%);filter:progid:DXImageTransform.Microsoft.B
 /*搜索栏*/
 input#scbar_txt {
     width: 200px;
-    transition: transform 0.3s ease-in;
+    transition: 0.3s ease-in;
 }
 input#scbar_txt:hover{
     width:400px;
